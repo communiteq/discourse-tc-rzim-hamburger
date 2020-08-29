@@ -1,0 +1,11 @@
+{
+  "name": "RZIM Hamburger Menu",
+  "about_url": "https://github.com/discoursehosting/discourse-tc-rzim-hamburger",
+  "authors": "richard@discoursehosting.com",
+  "license_url": null,
+  "component": true,
+  "assets": {
+  },
+  "color_schemes": {
+  }
+}
