@@ -57,7 +57,15 @@ export default {
               title: themePrefix("join_help")
             });
 
-          } // currentUser
+          } // currentUser 
+          else { // anon only
+            links.push({
+              href: "/t/slug/2208", 
+              className: "welcome-to-connect-link",
+              label: themePrefix("welcome_title"),
+              title: themePrefix("welcome_help")
+            });
+          }
 
           // add Community Standards
           links.push({
