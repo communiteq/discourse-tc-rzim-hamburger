@@ -67,12 +67,12 @@ export default {
             });
           }
 
-          // add Community Standards
+          // add RZIM Store
           links.push({
-            href: "/tos",
-            className: "tos-link",
-            label: themePrefix("tos_title"),
-            title: themePrefix("tos_help")
+            href: "https://store.rzim.org/",
+            className: "store-link",
+            label: themePrefix("store_title"),
+            title: themePrefix("store_help")
           });
 
           // add Give
@@ -81,6 +81,14 @@ export default {
             className: "give-link",
             label: themePrefix("give_title"),
             title: themePrefix("give_help")
+          });
+
+          // add Community Standards
+          links.push({
+            href: "/tos",
+            className: "tos-link",
+            label: themePrefix("tos_title"),
+            title: themePrefix("tos_help")
           });
 
           // moved Review to the bottom
