@@ -77,7 +77,7 @@ export default {
 
           // add Give
           links.push({
-            href: "https://give.rzim.org/connect",
+            href: "https://www.rzim.org/give",
             className: "give-link",
             label: themePrefix("give_title"),
             title: themePrefix("give_help")
